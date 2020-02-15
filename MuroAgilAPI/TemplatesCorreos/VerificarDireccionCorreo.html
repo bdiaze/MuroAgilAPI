@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Verificar Dirección de Correo</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            text-align: left;
+        }
+
+        .contenedor {
+            display: block;
+            width: 100%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .contenedor h1 {
+            text-align: center;
+            font-size: 400%;
+            padding-top: 0px;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .card {
+            display: block;
+            max-width: 400px;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            border-color: #007bff !important;
+            position: relative;
+            display: block;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 1px solid rgba(0,0,0,.125);
+            border-radius: .25rem;
+        }
+
+        .cabecera {
+            display: block;
+            background-color: #007bff !important;
+            padding: .75rem 1.25rem;
+            margin-bottom: 0;
+            border-bottom: 1px solid rgba(0,0,0,.125);
+            color: #fff !important;
+        }
+
+        .cuerpo {
+            display: block;
+            padding: 1.25rem;
+        }
+
+        .cuerpo a {
+            display: inline-block;
+            font-weight: 400;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            user-select: none;
+            border: 1px solid transparent;
+            line-height: 1.5;
+            border-radius: 0.25rem;
+            text-decoration: none;
+            color: #fff;
+            background-color: #28a745;
+            border-color: #28a745;
+            cursor: pointer;
+            padding: .375rem 0;
+            width: 100%;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+
+        .parte1 {
+            display: inline-block;
+            margin-bottom: .5rem;
+        }
+
+        .parte2 {
+            display: inline-block;
+            margin-bottom: .5rem;
+        }
+
+        textarea {
+            display: block;
+            padding: .375rem .75rem;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: .25rem;
+            resize: none;
+            width: 93%;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Muro Ágil</h1>
+        <div class="card">
+            <div class="cabecera">
+                <strong>Verificación de Dirección de Correo</strong>
+            </div>
+            <div class="cuerpo">
+                <label class="parte1">
+                    <b>¡Bienvenido, [NOMBRE]!</b><br />
+                    El equipo de Muro Ágil está muy feliz de saber que ahora eres parte de nuestra comunidad.<br />
+                    Para poder iniciar sesión, es necesario que verifiques tu correo mediante el siguiente botón:
+                </label>
+                <a href='[URL]' target='_blank' role='button'>
+                    ¡Verificar Dirección de Correo!
+                </a>
+                <label class="parte2">
+                    Si el botón anterior no funciona, copia y pega, en tu navegador, la siguiente URL:
+                </label>
+                <textarea rows='5' readonly>[URL]</textarea>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
